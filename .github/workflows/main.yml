@@ -14,10 +14,10 @@ jobs:
           node-version: 12.x
       - name: Install nodejs dependencies
         run: |
-          yarn
+          npm
       - name: Run Webpack Build
         run: |
-          yarn production
+          npm production
       - name: Commit
         run: |
           git config --local user.name "daffa09"
