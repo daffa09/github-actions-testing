@@ -1,0 +1,20 @@
+{
+  "name": "github-action-testing",
+  "version": "1.0.0",
+  "description": "Project for testing github actions",
+  "scripts": {
+    "dev": "node_modules/webpack/bin/webpack.js --mode development --watch",
+    "production": "node_modules/webpack/bin/webpack.js --mode production"
+},
+"Dependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  },
+  "author": "fanthom",
+  "license": "MIT",
+
+  "devDependencies": {
+    "webpack": "^5.88.2",
+    "webpack-cli": "^5.1.4"
+  }
+}
